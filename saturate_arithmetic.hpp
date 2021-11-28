@@ -11,6 +11,9 @@ constexpr Type sadd(const Type& a, const Type& b) {
     return s;
 }
 
+
+
+
 template<typename Type>
 constexpr Type ssub(const Type& a, const Type& b){
     Type s = a - b;
